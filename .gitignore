@@ -177,3 +177,8 @@ pyrightconfig.json
 
 # Vscode
 .vscode
+
+# Rasa
+
+.rasa
+models
