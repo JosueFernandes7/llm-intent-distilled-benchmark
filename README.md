@@ -34,3 +34,8 @@ Resposta
     },
 }
 ```
+
+
+Pegar chave de api no mistral.ai
+
+export MISTRAL_KEY="SUA-CHAVE"
