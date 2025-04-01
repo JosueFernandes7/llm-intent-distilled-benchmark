@@ -1,0 +1,602 @@
+[
+  {
+    "text": "Boa noite, você pode me atender?",
+    "intent": "saudacao"
+  },
+  {
+    "text": "E aí, podemos bater um papo?",
+    "intent": "saudacao"
+  },
+  {
+    "text": "Olá, preciso de informações.",
+    "intent": "saudacao"
+  },
+  {
+    "text": "Bom dia, tem alguém online?",
+    "intent": "saudacao"
+  },
+  {
+    "text": "Oi, gostaria de começar um chat.",
+    "intent": "saudacao"
+  },
+  {
+    "text": "Existe opção de cores disponíveis?",
+    "intent": "solicitar_informacoes_produto"
+  },
+  {
+    "text": "Vocês oferecem algum tipo de plano de suporte?",
+    "intent": "solicitar_informacoes_produto"
+  },
+  {
+    "text": "Gostaria de saber se tem promoção para esse produto.",
+    "intent": "solicitar_informacoes_produto"
+  },
+  {
+    "text": "Como funciona o processo de troca ou devolução?",
+    "intent": "solicitar_informacoes_produto"
+  },
+  {
+    "text": "Qual a política de reembolso em caso de defeito?",
+    "intent": "solicitar_informacoes_produto"
+  },
+  {
+    "text": "Como consigo falar com alguém da equipe de suporte?",
+    "intent": "falar_com_atendente_humano"
+  },
+  {
+    "text": "Preciso resolver isso com uma pessoa, pode ser?",
+    "intent": "falar_com_atendente_humano"
+  },
+  {
+    "text": "Consegue me redirecionar para uma pessoa de verdade?",
+    "intent": "falar_com_atendente_humano"
+  },
+  {
+    "text": "Quero atendimento humano o quanto antes.",
+    "intent": "falar_com_atendente_humano"
+  },
+  {
+    "text": "Há um funcionário que possa me ajudar nesta questão?",
+    "intent": "falar_com_atendente_humano"
+  },
+  {
+    "text": "Tive problemas ao tentar cancelar o pedido.",
+    "intent": "reclamacao"
+  },
+  {
+    "text": "Não consigo contato com o suporte e estou irritado.",
+    "intent": "reclamacao"
+  },
+  {
+    "text": "O site apresentou erros e me prejudicou.",
+    "intent": "reclamacao"
+  },
+  {
+    "text": "O produto que comprei não funciona corretamente.",
+    "intent": "reclamacao"
+  },
+  {
+    "text": "Quero abrir uma reclamação sobre a entrega incorreta.",
+    "intent": "reclamacao"
+  },
+  {
+    "text": "Obrigada por me atender com tanta eficiência.",
+    "intent": "agradecimento"
+  },
+  {
+    "text": "Fico feliz com o suporte que recebi.",
+    "intent": "agradecimento"
+  },
+  {
+    "text": "Muito obrigado, vocês foram ótimos.",
+    "intent": "agradecimento"
+  },
+  {
+    "text": "Valeu mesmo, me ajudou bastante agora.",
+    "intent": "agradecimento"
+  },
+  {
+    "text": "Agradeço demais todo o cuidado que tiveram.",
+    "intent": "agradecimento"
+  },
+  {
+    "text": "Você consegue conferir se meu pedido foi despachado?",
+    "intent": "pedir_informacoes_sobre_pedido"
+  },
+  {
+    "text": "Meu pedido aparece como pendente, por quê?",
+    "intent": "pedir_informacoes_sobre_pedido"
+  },
+  {
+    "text": "Quando meu pedido será preparado para envio?",
+    "intent": "pedir_informacoes_sobre_pedido"
+  },
+  {
+    "text": "Poderia verificar o status exato do meu pedido?",
+    "intent": "pedir_informacoes_sobre_pedido"
+  },
+  {
+    "text": "Tem algum problema com meu pedido?",
+    "intent": "pedir_informacoes_sobre_pedido"
+  },
+  {
+    "text": "Onde posso encontrar o número de rastreio?",
+    "intent": "rastrear_pedido"
+  },
+  {
+    "text": "Não consigo rastrear, existe algum problema?",
+    "intent": "rastrear_pedido"
+  },
+  {
+    "text": "Quero acompanhar a rota da entrega.",
+    "intent": "rastrear_pedido"
+  },
+  {
+    "text": "Pode me informar quando meu pacote será entregue?",
+    "intent": "rastrear_pedido"
+  },
+  {
+    "text": "Como acompanho o trajeto do meu pedido?",
+    "intent": "rastrear_pedido"
+  },
+  {
+    "text": "É obrigatório colocar meu telefone no cadastro?",
+    "intent": "duvidas_sobre_cadastro"
+  },
+  {
+    "text": "Tenho que informar meu endereço completo no registro?",
+    "intent": "duvidas_sobre_cadastro"
+  },
+  {
+    "text": "Minha conta foi bloqueada, como reativo?",
+    "intent": "duvidas_sobre_cadastro"
+  },
+  {
+    "text": "Posso alterar meus dados após o cadastro?",
+    "intent": "duvidas_sobre_cadastro"
+  },
+  {
+    "text": "Estou com erro ao tentar me cadastrar, pode ajudar?",
+    "intent": "duvidas_sobre_cadastro"
+  },
+  {
+    "text": "Como solicito o cancelamento imediato?",
+    "intent": "solicitar_cancelamento_pedido"
+  },
+  {
+    "text": "Gostaria de cancelar, me deem instruções.",
+    "intent": "solicitar_cancelamento_pedido"
+  },
+  {
+    "text": "Meu pedido não me satisfaz, quero cancelar.",
+    "intent": "solicitar_cancelamento_pedido"
+  },
+  {
+    "text": "Preciso anular o pedido, me ajuda.",
+    "intent": "solicitar_cancelamento_pedido"
+  },
+  {
+    "text": "Podem interromper o processo de envio?",
+    "intent": "solicitar_cancelamento_pedido"
+  },
+  {
+    "text": "O item veio com defeito, desejo trocá-lo.",
+    "intent": "solicitar_troca_devolucao"
+  },
+  {
+    "text": "Quero devolver e receber meu dinheiro de volta.",
+    "intent": "solicitar_troca_devolucao"
+  },
+  {
+    "text": "Posso trocar por outro item de mesmo valor?",
+    "intent": "solicitar_troca_devolucao"
+  },
+  {
+    "text": "Qual a política de trocas e devoluções?",
+    "intent": "solicitar_troca_devolucao"
+  },
+  {
+    "text": "Quero devolver pois não gostei do produto.",
+    "intent": "solicitar_troca_devolucao"
+  },
+  {
+    "text": "Meu boleto venceu, posso gerar outro?",
+    "intent": "duvidas_sobre_pagamento"
+  },
+  {
+    "text": "Qual a data de vencimento para pagamento?",
+    "intent": "duvidas_sobre_pagamento"
+  },
+  {
+    "text": "Recebi uma cobrança duplicada, podem verificar?",
+    "intent": "duvidas_sobre_pagamento"
+  },
+  {
+    "text": "Posso alterar a forma de pagamento depois de comprar?",
+    "intent": "duvidas_sobre_pagamento"
+  },
+  {
+    "text": "Existe taxa adicional para parcelamento?",
+    "intent": "duvidas_sobre_pagamento"
+  },
+  {
+    "text": "Tem opção de entrega no mesmo dia?",
+    "intent": "duvidas_sobre_entrega"
+  },
+  {
+    "text": "Qual a transportadora que vocês usam?",
+    "intent": "duvidas_sobre_entrega"
+  },
+  {
+    "text": "Dá para mudar o endereço de entrega depois de fechar o pedido?",
+    "intent": "duvidas_sobre_entrega"
+  },
+  {
+    "text": "Minha região é considerada área de risco, vocês entregam?",
+    "intent": "duvidas_sobre_entrega"
+  },
+  {
+    "text": "A entrega pode atrasar por causa de feriados?",
+    "intent": "duvidas_sobre_entrega"
+  },
+  {
+    "text": "Recebi um e-mail de promoção, mas não funciona o cupom.",
+    "intent": "duvidas_sobre_promocao"
+  },
+  {
+    "text": "Tem alguma oferta para clientes antigos?",
+    "intent": "duvidas_sobre_promocao"
+  },
+  {
+    "text": "Como participo das promoções de vocês?",
+    "intent": "duvidas_sobre_promocao"
+  },
+  {
+    "text": "Posso acumular pontos para ter desconto?",
+    "intent": "duvidas_sobre_promocao"
+  },
+  {
+    "text": "A promoção vale só para compras online ou também na loja física?",
+    "intent": "duvidas_sobre_promocao"
+  },
+  {
+    "text": "Adorei o cuidado com a embalagem.",
+    "intent": "elogio"
+  },
+  {
+    "text": "Vocês superaram minhas expectativas.",
+    "intent": "elogio"
+  },
+  {
+    "text": "É sempre um prazer comprar com vocês.",
+    "intent": "elogio"
+  },
+  {
+    "text": "Sou cliente fiel graças ao ótimo atendimento.",
+    "intent": "elogio"
+  },
+  {
+    "text": "Vale a pena elogiar o profissionalismo de vocês.",
+    "intent": "elogio"
+  },
+  {
+    "text": "O frete é muito caro para minha região.",
+    "intent": "feedback_negativo"
+  },
+  {
+    "text": "Senti falta de promoções mais agressivas.",
+    "intent": "feedback_negativo"
+  },
+  {
+    "text": "Não achei fácil usar o chat do site.",
+    "intent": "feedback_negativo"
+  },
+  {
+    "text": "O layout da página de checkout confunde.",
+    "intent": "feedback_negativo"
+  },
+  {
+    "text": "Poderiam melhorar a experiência de compra geral.",
+    "intent": "feedback_negativo"
+  },
+  {
+    "text": "Estou planejando um evento e preciso de um orçamento.",
+    "intent": "solicitar_orcamento"
+  },
+  {
+    "text": "Pode preparar um orçamento completo, com impostos inclusos?",
+    "intent": "solicitar_orcamento"
+  },
+  {
+    "text": "Preciso saber quanto vou gastar com mão de obra e material.",
+    "intent": "solicitar_orcamento"
+  },
+  {
+    "text": "Vocês fazem pacotes promocionais? Quero orçar.",
+    "intent": "solicitar_orcamento"
+  },
+  {
+    "text": "Poderia me encaminhar a tabela de preços?",
+    "intent": "solicitar_orcamento"
+  },
+  {
+    "text": "Há produtos em pronta entrega na loja física?",
+    "intent": "perguntar_sobre_disponibilidade"
+  },
+  {
+    "text": "É possível encomendar se não tiver em estoque?",
+    "intent": "perguntar_sobre_disponibilidade"
+  },
+  {
+    "text": "Vocês costumam repor esse item com frequência?",
+    "intent": "perguntar_sobre_disponibilidade"
+  },
+  {
+    "text": "Quando será reabastecido esse produto esgotado?",
+    "intent": "perguntar_sobre_disponibilidade"
+  },
+  {
+    "text": "Consegue verificar se há estoque em outra filial?",
+    "intent": "perguntar_sobre_disponibilidade"
+  },
+  {
+    "text": "É possível agendar uma sessão de demonstração online?",
+    "intent": "solicitar_demonstracao"
+  },
+  {
+    "text": "Posso visitar a loja para ver o produto funcionando?",
+    "intent": "solicitar_demonstracao"
+  },
+  {
+    "text": "Vocês disponibilizam trial de 7 dias?",
+    "intent": "solicitar_demonstracao"
+  },
+  {
+    "text": "Podem me mostrar como se usa na prática?",
+    "intent": "solicitar_demonstracao"
+  },
+  {
+    "text": "Gostaria de conhecer o funcionamento antes de decidir.",
+    "intent": "solicitar_demonstracao"
+  },
+  {
+    "text": "Esse software roda em todos os sistemas operacionais?",
+    "intent": "duvida_sobre_funcionamento"
+  },
+  {
+    "text": "O produto funciona com energia 110 ou 220V?",
+    "intent": "duvida_sobre_funcionamento"
+  },
+  {
+    "text": "Não entendo como ativar o modo de economia.",
+    "intent": "duvida_sobre_funcionamento"
+  },
+  {
+    "text": "O aplicativo precisa de internet para funcionar?",
+    "intent": "duvida_sobre_funcionamento"
+  },
+  {
+    "text": "Tem algum vídeo explicativo sobre esse funcionamento?",
+    "intent": "duvida_sobre_funcionamento"
+  },
+  {
+    "text": "O site fica dando erro de conexão segura.",
+    "intent": "falar_sobre_problema_tecnico"
+  },
+  {
+    "text": "Está ocorrendo erro ao tentar atualizar meus dados.",
+    "intent": "falar_sobre_problema_tecnico"
+  },
+  {
+    "text": "Recebo uma mensagem de tempo esgotado sempre.",
+    "intent": "falar_sobre_problema_tecnico"
+  },
+  {
+    "text": "O sistema não carrega as imagens do produto.",
+    "intent": "falar_sobre_problema_tecnico"
+  },
+  {
+    "text": "Não consigo instalar o app no meu celular.",
+    "intent": "falar_sobre_problema_tecnico"
+  },
+  {
+    "text": "Quais são as diretrizes para uso do site?",
+    "intent": "perguntar_sobre_politicas_gerais"
+  },
+  {
+    "text": "Vocês possuem política de conduta do usuário?",
+    "intent": "perguntar_sobre_politicas_gerais"
+  },
+  {
+    "text": "Queria entender as regras de cancelamento e devolução.",
+    "intent": "perguntar_sobre_politicas_gerais"
+  },
+  {
+    "text": "As políticas de vocês seguem as leis de proteção ao consumidor?",
+    "intent": "perguntar_sobre_politicas_gerais"
+  },
+  {
+    "text": "Existe alguma taxa administrativa prevista na política?",
+    "intent": "perguntar_sobre_politicas_gerais"
+  },
+  {
+    "text": "Preciso remarcar a instalação para semana que vem.",
+    "intent": "solicitar_reagendamento"
+  },
+  {
+    "text": "O entregador não veio, quero reagendar.",
+    "intent": "solicitar_reagendamento"
+  },
+  {
+    "text": "O técnico faltou, podem marcar nova data?",
+    "intent": "solicitar_reagendamento"
+  },
+  {
+    "text": "Há possibilidade de reagendar sem custo adicional?",
+    "intent": "solicitar_reagendamento"
+  },
+  {
+    "text": "Quero reagendar o envio para daqui a 3 dias.",
+    "intent": "solicitar_reagendamento"
+  },
+  {
+    "text": "Poderiam me recomendar um kit completo?",
+    "intent": "pedir_sugestao_produto"
+  },
+  {
+    "text": "Quero uma sugestão de vocês para o meu caso.",
+    "intent": "pedir_sugestao_produto"
+  },
+  {
+    "text": "Preciso de um presente, aceito recomendações.",
+    "intent": "pedir_sugestao_produto"
+  },
+  {
+    "text": "Qual vocês acham mais confiável e durável?",
+    "intent": "pedir_sugestao_produto"
+  },
+  {
+    "text": "Procurando algo de qualidade, podem indicar?",
+    "intent": "pedir_sugestao_produto"
+  },
+  {
+    "text": "Tem limite de vezes para parcelar no cartão?",
+    "intent": "consultar_formas_pagamento"
+  },
+  {
+    "text": "O site oferece pagamento via PayPal?",
+    "intent": "consultar_formas_pagamento"
+  },
+  {
+    "text": "Quais são as opções de pagamento online?",
+    "intent": "consultar_formas_pagamento"
+  },
+  {
+    "text": "Vocês aceitam pagamento em criptomoedas?",
+    "intent": "consultar_formas_pagamento"
+  },
+  {
+    "text": "Tem opção de pagamento recorrente?",
+    "intent": "consultar_formas_pagamento"
+  },
+  {
+    "text": "Os planos incluem suporte técnico?",
+    "intent": "perguntar_sobre_planos"
+  },
+  {
+    "text": "Há desconto para pagamento anual do plano?",
+    "intent": "perguntar_sobre_planos"
+  },
+  {
+    "text": "Como faço para escolher o plano certo para mim?",
+    "intent": "perguntar_sobre_planos"
+  },
+  {
+    "text": "Vocês oferecem planos corporativos?",
+    "intent": "perguntar_sobre_planos"
+  },
+  {
+    "text": "Qual a diferença entre o plano individual e o familiar?",
+    "intent": "perguntar_sobre_planos"
+  },
+  {
+    "text": "Quem pode me orientar sobre ajustes no produto comprado?",
+    "intent": "solicitar_suporte_pos_venda"
+  },
+  {
+    "text": "Gostaria de suporte adicional para instalação.",
+    "intent": "solicitar_suporte_pos_venda"
+  },
+  {
+    "text": "Vocês dão acompanhamento após a instalação?",
+    "intent": "solicitar_suporte_pos_venda"
+  },
+  {
+    "text": "Onde aciono o suporte para resolver problemas futuros?",
+    "intent": "solicitar_suporte_pos_venda"
+  },
+  {
+    "text": "Existe garantia estendida após a compra?",
+    "intent": "solicitar_suporte_pos_venda"
+  },
+  {
+    "text": "Posso trocar se apresentar defeito nesse período?",
+    "intent": "duvida_sobre_garantia"
+  },
+  {
+    "text": "Como funciona a política de garantia para itens recondicionados?",
+    "intent": "duvida_sobre_garantia"
+  },
+  {
+    "text": "É possível estender a garantia por mais tempo?",
+    "intent": "duvida_sobre_garantia"
+  },
+  {
+    "text": "O que não está coberto pela garantia?",
+    "intent": "duvida_sobre_garantia"
+  },
+  {
+    "text": "Vocês precisam de nota fiscal para acionar a garantia?",
+    "intent": "duvida_sobre_garantia"
+  },
+  {
+    "text": "Como sei se o cupom foi aplicado com sucesso?",
+    "intent": "perguntar_sobre_cupons"
+  },
+  {
+    "text": "Posso usar mais de um cupom na mesma compra?",
+    "intent": "perguntar_sobre_cupons"
+  },
+  {
+    "text": "O cupom vale também para compras presenciais?",
+    "intent": "perguntar_sobre_cupons"
+  },
+  {
+    "text": "Cupons de influenciadores ainda estão válidos?",
+    "intent": "perguntar_sobre_cupons"
+  },
+  {
+    "text": "Recebi um cupom por e-mail, onde uso?",
+    "intent": "perguntar_sobre_cupons"
+  },
+  {
+    "text": "Não consigo imprimir a NF do site, podem me ajudar?",
+    "intent": "solicitar_emissao_nota_fiscal"
+  },
+  {
+    "text": "A nota foi emitida com erro, como ajusto?",
+    "intent": "solicitar_emissao_nota_fiscal"
+  },
+  {
+    "text": "Posso ter a nota em formato digital?",
+    "intent": "solicitar_emissao_nota_fiscal"
+  },
+  {
+    "text": "Vocês emitem nota fiscal para pessoa física?",
+    "intent": "solicitar_emissao_nota_fiscal"
+  },
+  {
+    "text": "Necessito da NF para garantia, como proceder?",
+    "intent": "solicitar_emissao_nota_fiscal"
+  },
+  {
+    "text": "Não consigo salvar as alterações no cadastro.",
+    "intent": "solicitar_alteracao_cadastro"
+  },
+  {
+    "text": "Podem editar meu endereço de entrega padrão?",
+    "intent": "solicitar_alteracao_cadastro"
+  },
+  {
+    "text": "Quero excluir um cartão salvo no cadastro.",
+    "intent": "solicitar_alteracao_cadastro"
+  },
+  {
+    "text": "Tem como atualizar meus documentos anexados?",
+    "intent": "solicitar_alteracao_cadastro"
+  },
+  {
+    "text": "Preciso mudar informações de faturamento na minha conta.",
+    "intent": "solicitar_alteracao_cadastro"
+  }
+]
