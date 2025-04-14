@@ -1,0 +1,6 @@
+text,expected,predicted,latency_sec
+does village inn let you make reservations,accept_reservations,accept_reservations,3.068
+can i make a reservation at chima steakhouse in chicago,accept_reservations,restaurant_reservation,2.957
+does the new york restaurant take reservations,accept_reservations,accept_reservations,2.999
+do you know if i can make reservations at bj's,accept_reservations,accept_reservations,2.983
+any clue as to if taco bell takes reservations,accept_reservations,accept_reservations,2.894
