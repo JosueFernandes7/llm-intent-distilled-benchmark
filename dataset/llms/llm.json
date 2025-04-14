@@ -1,0 +1,602 @@
+[
+  {
+    "intent": "accept_reservations",
+    "text": "let me know if grub burger takes reservations"
+  },
+  {
+    "intent": "account_blocked",
+    "text": "are there any problems with my bank account"
+  },
+  {
+    "intent": "alarm",
+    "text": "please set an alarm for me"
+  },
+  {
+    "intent": "application_status",
+    "text": "how is the status of my credit card application coming along"
+  },
+  {
+    "intent": "apr",
+    "text": "tell me the current apr on my visa card from bbt"
+  },
+  {
+    "intent": "are_you_a_bot",
+    "text": "can you tell me if you're human or if you're a computer"
+  },
+  {
+    "intent": "balance",
+    "text": "what's my pnc balance"
+  },
+  {
+    "intent": "bill_balance",
+    "text": "how much is my kill bill bill for"
+  },
+  {
+    "intent": "bill_due",
+    "text": "how long until my water bill is due"
+  },
+  {
+    "intent": "book_flight",
+    "text": "i need a flight from denver international to new york for under 700 on the 3rd"
+  },
+  {
+    "intent": "book_hotel",
+    "text": "get me a hotel room for 3 people from march 12th to 14th in chicago"
+  },
+  {
+    "intent": "calculator",
+    "text": "what is 100 multiplied by 55"
+  },
+  {
+    "intent": "calendar",
+    "text": "can you tell me what my calendar is like for thursday the 14th"
+  },
+  {
+    "intent": "calendar_update",
+    "text": "can you remove this event from my calendar"
+  },
+  {
+    "intent": "calories",
+    "text": "what is the calorie count for muffins"
+  },
+  {
+    "intent": "cancel",
+    "text": "never mind, cancel that"
+  },
+  {
+    "intent": "cancel_reservation",
+    "text": "cancel tonight's dinner reservation"
+  },
+  {
+    "intent": "car_rental",
+    "text": "i'm going to need a coupe car in sedona from 5/1 until 5/4"
+  },
+  {
+    "intent": "card_declined",
+    "text": "my card was declined at the store yesterday, what happened"
+  },
+  {
+    "intent": "carry_on",
+    "text": "what are the carry-on restrictions for singapore airlines"
+  },
+  {
+    "intent": "change_accent",
+    "text": "talk to me in a different accent"
+  },
+  {
+    "intent": "change_ai_name",
+    "text": "would it be okay to change your name to daphne"
+  },
+  {
+    "intent": "change_language",
+    "text": "can you speak to me in chinese"
+  },
+  {
+    "intent": "change_speed",
+    "text": "please don't speak so fast"
+  },
+  {
+    "intent": "change_user_name",
+    "text": "i am camile"
+  },
+  {
+    "intent": "change_volume",
+    "text": "speak up"
+  },
+  {
+    "intent": "confirm_reservation",
+    "text": "please double check my reservations for six at mani"
+  },
+  {
+    "intent": "cook_time",
+    "text": "what is the duration of time cookies should be in the oven"
+  },
+  {
+    "intent": "credit_limit",
+    "text": "tell me the limit for credit on my mastercard"
+  },
+  {
+    "intent": "credit_limit_change",
+    "text": "how can i get a limit increase on my discover card"
+  },
+  {
+    "intent": "credit_score",
+    "text": "tell me my credit rating"
+  },
+  {
+    "intent": "current_location",
+    "text": "check out my location up on the map"
+  },
+  {
+    "intent": "damaged_card",
+    "text": "how report that scratched my card"
+  },
+  {
+    "intent": "date",
+    "text": "in 5 days from today, what will the date be"
+  },
+  {
+    "intent": "definition",
+    "text": "use the word ataraxy in a sentence"
+  },
+  {
+    "intent": "direct_deposit",
+    "text": "i need to know how to do direct deposit with my paycheck at nations bank"
+  },
+  {
+    "intent": "directions",
+    "text": "tell me where is the closest coffee shop"
+  },
+  {
+    "intent": "distance",
+    "text": "how long will it take me to get to the mcdonald's in the city"
+  },
+  {
+    "intent": "do_you_have_pets",
+    "text": "do you have any dogs or cats"
+  },
+  {
+    "intent": "exchange_rate",
+    "text": "how many dollars can i get for 20 yen"
+  },
+  {
+    "intent": "expiration_date",
+    "text": "how long is it going to be until my card expires"
+  },
+  {
+    "intent": "find_phone",
+    "text": "can you help me find my phone, please"
+  },
+  {
+    "intent": "flight_status",
+    "text": "when will i get to my destination"
+  },
+  {
+    "intent": "flip_coin",
+    "text": "let's decide with a coin flip"
+  },
+  {
+    "intent": "food_last",
+    "text": "what is the most time i can keep a burrito frozen for before it's no good to eat"
+  },
+  {
+    "intent": "freeze_account",
+    "text": "my bank account must be frozen"
+  },
+  {
+    "intent": "fun_fact",
+    "text": "i want to know fun facts about koala bears"
+  },
+  {
+    "intent": "gas",
+    "text": "what's left in my gas tank"
+  },
+  {
+    "intent": "gas_type",
+    "text": "can i put normal unleaded in this car"
+  },
+  {
+    "intent": "goodbye",
+    "text": "a pleasure as always to speak with you, bye"
+  },
+  {
+    "intent": "greeting",
+    "text": "how are you doing"
+  },
+  {
+    "intent": "how_busy",
+    "text": "can you tell me how busy outback steakhouse will be at 7:30 pm"
+  },
+  {
+    "intent": "how_old_are_you",
+    "text": "whens your birthday"
+  },
+  {
+    "intent": "improve_credit_score",
+    "text": "it is damaging to my credit score if i miss one credit card payment"
+  },
+  {
+    "intent": "income",
+    "text": "give me the details on my income"
+  },
+  {
+    "intent": "ingredient_substitution",
+    "text": "can you sub half and half for heavy whipping cream"
+  },
+  {
+    "intent": "ingredients_list",
+    "text": "what ingredients are needed to make lasgana"
+  },
+  {
+    "intent": "insurance",
+    "text": "check on my health care plan"
+  },
+  {
+    "intent": "insurance_change",
+    "text": "explain to me how do i get new insurance"
+  },
+  {
+    "intent": "interest_rate",
+    "text": "could you find my interest rate for me"
+  },
+  {
+    "intent": "international_fees",
+    "text": "does american express charge transaction fees for iceland"
+  },
+  {
+    "intent": "international_visa",
+    "text": "does going to taiwan require me to get an international visa"
+  },
+  {
+    "intent": "jump_start",
+    "text": "my car battery is dead, what do i do now"
+  },
+  {
+    "intent": "last_maintenance",
+    "text": "when was the last time my car was worked on"
+  },
+  {
+    "intent": "lost_luggage",
+    "text": "i'm not able to find my luggage and i was on southwest airlines flight ab123 out of houston"
+  },
+  {
+    "intent": "make_call",
+    "text": "dial up dominos pizza"
+  },
+  {
+    "intent": "maybe",
+    "text": "i am unable to say"
+  },
+  {
+    "intent": "meal_suggestion",
+    "text": "can you recommend thai food"
+  },
+  {
+    "intent": "meaning_of_life",
+    "text": "what is the meaning of life here"
+  },
+  {
+    "intent": "measurement_conversion",
+    "text": "how many pounds are in 10 kilos"
+  },
+  {
+    "intent": "meeting_schedule",
+    "text": "what meetings do i have scheduled today"
+  },
+  {
+    "intent": "min_payment",
+    "text": "what must i pay, at a minimum, on my verizon bill"
+  },
+  {
+    "intent": "mpg",
+    "text": "can i have more information about this car's highway mpg"
+  },
+  {
+    "intent": "new_card",
+    "text": "i desire to apply for a bank of america travel rewards credit card"
+  },
+  {
+    "intent": "next_holiday",
+    "text": "when is the soonest holiday"
+  },
+  {
+    "intent": "next_song",
+    "text": "please play the next song"
+  },
+  {
+    "intent": "no",
+    "text": "that has to be false"
+  },
+  {
+    "intent": "nutrition_info",
+    "text": "share the nutrition info for french fries with me"
+  },
+  {
+    "intent": "oil_change_how",
+    "text": "give me instructions on how to change the oil in my car"
+  },
+  {
+    "intent": "oil_change_when",
+    "text": "when's the next time i should change my oil"
+  },
+  {
+    "intent": "order",
+    "text": "put in the order for everything on my shopping list"
+  },
+  {
+    "intent": "order_checks",
+    "text": "i need more checkbooks mailed as soon as possible"
+  },
+  {
+    "intent": "order_status",
+    "text": "i placed an order and i need it tracked"
+  },
+  {
+    "intent": "pay_bill",
+    "text": "i have to pay my water bill but need help doing it"
+  },
+  {
+    "intent": "payday",
+    "text": "when's my next paycheck coming in"
+  },
+  {
+    "intent": "pin_change",
+    "text": "does my checking account have a pin number"
+  },
+  {
+    "intent": "play_music",
+    "text": "please play me the song that starts out with doo doo doo"
+  },
+  {
+    "intent": "plug_type",
+    "text": "i'm going to paris, what plug type do i need"
+  },
+  {
+    "intent": "pto_balance",
+    "text": "how many vacation days do i have at my disposal"
+  },
+  {
+    "intent": "pto_request",
+    "text": "can i put in a vacation request with you"
+  },
+  {
+    "intent": "pto_request_status",
+    "text": "has my request for the day off been approved yet"
+  },
+  {
+    "intent": "pto_used",
+    "text": "check to see how many days off i have used in total so far"
+  },
+  {
+    "intent": "recipe",
+    "text": "how do i make shrimp"
+  },
+  {
+    "intent": "redeem_rewards",
+    "text": "can i use my credit card point on amazon"
+  },
+  {
+    "intent": "reminder",
+    "text": "can you tell me what things i was trying to remember"
+  },
+  {
+    "intent": "reminder_update",
+    "text": "set a reminder for when the turkey is finished cooking"
+  },
+  {
+    "intent": "repeat",
+    "text": "i want to have that repeated for me"
+  },
+  {
+    "intent": "replacement_card_duration",
+    "text": "what is the shipping time for my card"
+  },
+  {
+    "intent": "report_fraud",
+    "text": "i would like to report fraudulent activity on my chase card"
+  },
+  {
+    "intent": "report_lost_card",
+    "text": "someone used my chase card without my authorization"
+  },
+  {
+    "intent": "reset_settings",
+    "text": "please reset to factory settings"
+  },
+  {
+    "intent": "restaurant_reservation",
+    "text": "use martins name to reserve a table at tropicana for 5 people at 8pm"
+  },
+  {
+    "intent": "restaurant_reviews",
+    "text": "pull up the ratings for macaroni grill"
+  },
+  {
+    "intent": "restaurant_suggestion",
+    "text": "could you suggest a french restaurant, please"
+  },
+  {
+    "intent": "rewards_balance",
+    "text": "what is my citigroup card's rewards balance"
+  },
+  {
+    "intent": "roll_dice",
+    "text": "i need a 10 sided die rolled"
+  },
+  {
+    "intent": "rollover_401k",
+    "text": "what's up with my 401k and will it roll over"
+  },
+  {
+    "intent": "routing",
+    "text": "i must know my bank of america routing number"
+  },
+  {
+    "intent": "schedule_maintenance",
+    "text": "the check engine light is on and i need a mechanic"
+  },
+  {
+    "intent": "schedule_meeting",
+    "text": "can you create a meeting for 3:00 on wednesday"
+  },
+  {
+    "intent": "share_location",
+    "text": "share my location with brad and terry"
+  },
+  {
+    "intent": "shopping_list",
+    "text": "do i have toothpaste on my shopping list"
+  },
+  {
+    "intent": "shopping_list_update",
+    "text": "on my shopping list, remove bread and add milk"
+  },
+  {
+    "intent": "smart_home",
+    "text": "turn lights on in my master bathroom"
+  },
+  {
+    "intent": "spelling",
+    "text": "how many ts are in tethered"
+  },
+  {
+    "intent": "spending_history",
+    "text": "how much have i paid in medical expenses recently"
+  },
+  {
+    "intent": "sync_device",
+    "text": "stop synching to my phone"
+  },
+  {
+    "intent": "taxes",
+    "text": "i need to know how much tax i pay from my earnings"
+  },
+  {
+    "intent": "tell_joke",
+    "text": "what are some funny jokes"
+  },
+  {
+    "intent": "text",
+    "text": "please send a text to danny saying that i'm running late"
+  },
+  {
+    "intent": "thank_you",
+    "text": "i owe you one!"
+  },
+  {
+    "intent": "time",
+    "text": "what time would it be in rome right now"
+  },
+  {
+    "intent": "timer",
+    "text": "i need to use a timer"
+  },
+  {
+    "intent": "timezone",
+    "text": "what timezone do they use in arizona"
+  },
+  {
+    "intent": "tire_change",
+    "text": "when should my tires be changed"
+  },
+  {
+    "intent": "tire_pressure",
+    "text": "i shall know how low are my tires on air"
+  },
+  {
+    "intent": "todo_list",
+    "text": "did i put cutting the grass on my todo list"
+  },
+  {
+    "intent": "todo_list_update",
+    "text": "can you place laundry on my to do list"
+  },
+  {
+    "intent": "traffic",
+    "text": "how is the traffic on the way to work"
+  },
+  {
+    "intent": "transactions",
+    "text": "let me check my transaction on my citi card"
+  },
+  {
+    "intent": "transfer",
+    "text": "what is the process to move money from one account to another"
+  },
+  {
+    "intent": "translate",
+    "text": "how would i say i love you if i were french"
+  },
+  {
+    "intent": "travel_alert",
+    "text": "are there any travel alerts for antarctica"
+  },
+  {
+    "intent": "travel_notification",
+    "text": "inform my bank i will be travelling to central africa"
+  },
+  {
+    "intent": "travel_suggestion",
+    "text": "are there any fun tourist activities in australia"
+  },
+  {
+    "intent": "uber",
+    "text": "can you please reserve my uber to go to devon's seafood restaurant"
+  },
+  {
+    "intent": "update_playlist",
+    "text": "please add this song to my alternative playlist"
+  },
+  {
+    "intent": "user_name",
+    "text": "how does my name appear"
+  },
+  {
+    "intent": "vaccines",
+    "text": "what type of specific shots should i get before flying to south korea"
+  },
+  {
+    "intent": "w2",
+    "text": "can you tell me where to get a w2"
+  },
+  {
+    "intent": "weather",
+    "text": "how hot will it be tomorrow"
+  },
+  {
+    "intent": "what_are_your_hobbies",
+    "text": "please share your hobbies with me"
+  },
+  {
+    "intent": "what_can_i_ask_you",
+    "text": "can you tell me what you can help with"
+  },
+  {
+    "intent": "what_is_your_name",
+    "text": "what name do you prefer"
+  },
+  {
+    "intent": "what_song",
+    "text": "what music is this"
+  },
+  {
+    "intent": "where_are_you_from",
+    "text": "let me know when you were made"
+  },
+  {
+    "intent": "whisper_mode",
+    "text": "volume to whisper voice"
+  },
+  {
+    "intent": "who_do_you_work_for",
+    "text": "are you one of my employees"
+  },
+  {
+    "intent": "who_made_you",
+    "text": "what organization manufactures you"
+  },
+  {
+    "intent": "yes",
+    "text": "10-4"
+  }
+]
