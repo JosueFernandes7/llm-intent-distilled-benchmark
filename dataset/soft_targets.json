@@ -1,0 +1,52 @@
+[
+  {
+    "text": "let me know if grub burger takes reservations",
+    "soft_targets": {
+      "accept_reservations": 0.9,
+      "account_blocked": 0.02,
+      "alarm": 0.02,
+      "application_status": 0.02,
+      "apr": 0.04
+    }
+  },
+  {
+    "text": "are there any problems with my bank account",
+    "soft_targets": {
+      "accept_reservations": 0.05,
+      "account_blocked": 0.85,
+      "alarm": 0.05,
+      "application_status": 0.02,
+      "apr": 0.03
+    }
+  },
+  {
+    "text": "please set an alarm for me",
+    "soft_targets": {
+      "accept_reservations": 0.05,
+      "account_blocked": 0.05,
+      "alarm": 0.85,
+      "application_status": 0.025,
+      "apr": 0.025
+    }
+  },
+  {
+    "text": "how is the status of my credit card application coming along",
+    "soft_targets": {
+      "accept_reservations": 0.05,
+      "account_blocked": 0.05,
+      "alarm": 0.05,
+      "application_status": 0.8,
+      "apr": 0.05
+    }
+  },
+  {
+    "text": "tell me the current apr on my visa card from bbt",
+    "soft_targets": {
+      "accept_reservations": 0.05,
+      "account_blocked": 0.05,
+      "alarm": 0.05,
+      "application_status": 0.05,
+      "apr": 0.8
+    }
+  }
+]

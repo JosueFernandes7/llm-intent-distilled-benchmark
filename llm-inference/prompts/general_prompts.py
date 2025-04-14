@@ -36,16 +36,17 @@ Just return the intent label, exactly as listed.
 SOFT_TARGET_PROMPT = """
 You are an intent classification assistant.
 
-Your task is to assign a confidence score to each possible intent for the given user input. Return a JSON object where each key is an intent and each value is a probability between 0.0 and 1.0. The probabilities must sum to 1.0.
+Your task is to provide a probability distribution over the following possible intents for a given user input.
+
+Return ONLY a valid JSON dictionary with intent-probability pairs, where values are between 0.0 and 1.0 and must sum to 1.0.
 
 Available intents:
 {intents}
 
 User input: "{user_input}"
 
-Respond ONLY with a JSON object and nothing else.
-Format example:
-{{"intent1": 0.20, "intent2": 0.65, "intent3": 0.15}}
+Respond only with a JSON object like:
+{{"intent1": 0.35, "intent2": 0.25, "intent3": 0.40}}
 
 Do not include any explanation, comments, or natural language.
 """
