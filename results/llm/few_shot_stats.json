@@ -1,5 +1,6 @@
 {
-  "total_time_sec": 15.9,
-  "avg_latency_sec": 3.18,
-  "throughput_samples_per_sec": 0.314
+  "total_time_sec": 0.0,
+  "avg_latency_sec_inference": 0.691,
+  "throughput_inference": 1.447,
+  "throughput_pipeline": 11823417.103
 }

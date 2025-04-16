@@ -1,0 +1,6 @@
+{
+  "total_time_sec": 14927.014,
+  "avg_latency_sec_inference": 0.691,
+  "throughput_inference": 1.448,
+  "throughput_pipeline": 0.301
+}
